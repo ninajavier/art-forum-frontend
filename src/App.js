@@ -13,7 +13,7 @@ import NavBar from "./Components/NavBar";
 function App() {
   return (
     <div className="">
-      <h1>Tuner App</h1>
+      <h1>Art Show</h1>
       <Router>
         <NavBar />
         <main>

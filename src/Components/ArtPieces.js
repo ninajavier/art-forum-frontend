@@ -6,7 +6,7 @@ const API = process.env.REACT_APP_API_URL;
 
 export default function ArtPieces() {
   const [ArtPieces, setArtPieces] = useState([]);
-
+console.log(API)
   useEffect(() => {
     axios.get(`${API}/art-pieces`)
       .then((response) => setArtPieces(response.data))

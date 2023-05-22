@@ -1,27 +1,25 @@
-import { Link } from "react-router-dom";
-
-export default function ArtPiece({ ArtPiece }) {
-  
+export default function ArtPiece({ artPiece }) {
+  console.log(ArtPiece)
   return (
     <tr className="art-piece">
       <td>
-        {ArtPiece.is_favorite ? (
+        {artPiece.is_favorite ? (
           <span>⭐️</span>
         ) : (
           <span>&nbsp; &nbsp; &nbsp;</span>
         )}
       </td>
       <td>
-        <a href={`/art-pieces/${ArtPiece.id}`}>{ArtPiece.title}</a>
+        <a href={`/art-pieces/${artPiece.id}`}>{artPiece.title}</a>
       </td>
       <td>
-        <p>{ArtPiece.artist}</p>
+        <p>{artPiece.artist}</p>
       </td>
       <td>
-        <p>{ArtPiece.medium}</p>
+        <p>{artPiece.medium}</p>
       </td>
       <td>
-        <p>{ArtPiece.year_created}</p>
+        <p>{artPiece.year_created}</p>
       </td>
     </tr>
   );
