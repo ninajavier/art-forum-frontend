@@ -54,4 +54,4 @@ To Visit App:
 `localhost:3000/art-pieces`  
 
 
-Trello Link: https://trello.com/b/NEk7gQv5/artportal
+Trello Link: [https://trello.com/b/NEk7gQv5/artportal](https://trello.com/invite/b/NEk7gQv5/ATTI9ff5a7805a2f2bd2744ccbd561e8a84c1BB3FA17/artportal)
