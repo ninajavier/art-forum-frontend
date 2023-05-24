@@ -1,18 +1,20 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import ArtPiece from "./ArtPiece";
+import "../Styles/ArtPiece.css";
 
 const API = process.env.REACT_APP_API_URL;
 
 export default function ArtPieces() {
-  const [ArtPieces, setArtPieces] = useState([]);
-console.log(API)
+  const [artPieces, setArtPieces] = useState([]);
+
   useEffect(() => {
-    axios.get(`${API}/art-pieces`)
+    axios
+      .get(`${API}/art-pieces`)
       .then((response) => setArtPieces(response.data))
       .catch((e) => console.warn("catch", e));
   }, []);
-  
+
   return (
     <div className="art-pieces">
       <section>
@@ -27,13 +29,12 @@ console.log(API)
             </tr>
           </thead>
           <tbody>
-            {ArtPieces.map((artPiece) => {
-              return <ArtPiece key={artPiece.id} artPiece={artPiece} />;
-            })}
+            {artPieces.map((artPiece) => (
+              <ArtPiece key={artPiece.id} artPiece={artPiece} />
+            ))}
           </tbody>
         </table>
       </section>
     </div>
   );
 }
-

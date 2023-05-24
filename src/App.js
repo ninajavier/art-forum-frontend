@@ -5,15 +5,14 @@ import Home from "./Pages/Home";
 import Index from "./Pages/Index";
 import New from "./Pages/New";
 import Show from "./Pages/Show";
-
 import NavBar from "./Components/NavBar";
+import "./App.css"
 
 
 
 function App() {
   return (
-    <div className="">
-      <h1>Art Show</h1>
+    <div className="app">
       <Router>
         <NavBar />
         <main>

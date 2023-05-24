@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+## ArtPortal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Example:
 
-## Available Scripts
+TweetWorld 
 
-In the project directory, you can run:
+An application used to create, read, update, and edit art pieces.
 
-### `npm start`
+## Project Status
+This project is currently in development. Users can filter tweets by username and keyword and see visual data representation. Functionality to sort by additional parameters is in progress.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Screen Shot(s)
+# Landing Page
+The landing page of the app
+![landing page](./src/Assets/landing-page.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Index Page
+A user can view all of the art pieces in the database
+From this page, a user can click on an art piece to view more details
+![index page](./src/Assets/index-page.png)
 
-### `npm test`
+# New Form
+A user can create a new art piece
+![new form](./src/Assets/new-page.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Edit Form
+A user can edit an already existing art piece
+![edit form](./src/Assets/edit-page.png)
 
-### `npm run build`
+# Details of Art Piece
+A user can view an individual art piece
+From this page users can edit, delete, or go back to the index page
+![details](./src/Assets/details-page.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Pop Up Modal For Delete
+A user will be prompted to confirm deletion of art piece
+![delete](./src/Assets/delete-modal.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation and Setup Instructions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-### `npm run eject`
+Installation:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`npm install`  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To Run Test Suite:  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`npm test`  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To Start Server:
 
-## Learn More
+`npm start`  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To Visit App:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`localhost:3000/art-pieces`  
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Trello Link: https://trello.com/b/NEk7gQv5/artportal

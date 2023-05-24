@@ -1,0 +1,88 @@
+.Edit, .New {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .Edit form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .Edit label {
+    font-weight: bold;
+  }
+  
+  .Edit input {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .Edit input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  .Edit input[type="submit"] {
+    background-color: #0f7173;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Edit input[type="submit"]:hover {
+    background-color: #272932;
+  }
+  
+  .Edit button {
+    background-color: #f05d5e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 50%;
+    height: 40px;
+  }
+  
+  .Edit button:hover {
+    background-color: #272932;
+  }
+  
+  @media (max-width: 768px) {
+    .Edit {
+      padding: 10px;
+    }
+  
+    .Edit form {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .Edit label,
+    .Edit input {
+      width: 100%;
+    }
+  
+    .Edit input[type="checkbox"] {
+      width: auto;
+      margin-right: 5px;
+    }
+  
+    .Edit input[type="submit"],
+    .Edit button {
+      margin-top: 10px;
+    }
+  }
+  
